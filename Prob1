@@ -6,4 +6,4 @@ Xstd = Matrix.std()
 
 Z=(Matrix-Xmean)/Xstd
 print(Z)
-karina.save('X_normalized')
+karina.save('X_normalized', Z)
