@@ -1,0 +1,9 @@
+import numpy as karina
+
+Matrix = karina.random.random((5,5))
+Xmean = Matrix.mean()
+Xstd = Matrix.std()
+
+Z=(Matrix-Xmean)/Xstd
+
+karina.save('X_normalized')
