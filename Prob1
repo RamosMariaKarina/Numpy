@@ -5,5 +5,5 @@ Xmean = Matrix.mean()
 Xstd = Matrix.std()
 
 Z=(Matrix-Xmean)/Xstd
-
+print(Z)
 karina.save('X_normalized')
